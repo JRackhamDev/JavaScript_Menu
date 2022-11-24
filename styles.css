@@ -42,10 +42,12 @@ body {
     background-size: 12vmin 12vmin;
     /*Positioning*/
     position: absolute;
-    left: 0px top: 0px z-index: -1;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
     /*Transition*/
-    transition: opacity: 800ms ease,
-        background-size: 800ms ease;
+    transition: opacity 800ms ease,
+        background-size 800ms ease;
 }
 
 #menu-items:hover~#menu-background-pattern {
